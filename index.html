@@ -40,7 +40,7 @@
   </div>
   <script type="text/javascript">
     $(document).ready(function(){
-      $.when($.ajax({url: "../data/template.mst", dataType: 'text'}),$.ajax({url: "./data/startup.json"}))
+      $.when($.ajax({url: "./data/template.mst", dataType: 'text'}),$.ajax({url: "./data/startup.json"}))
       .done(function(template, data) {
         console.log(data);
         Mustache.parse(template[0]);

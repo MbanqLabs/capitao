@@ -120,6 +120,17 @@ function js() {
     .pipe(browsersync.stream());
 }
 
+// mustache, json data task
+function data() {
+  return gulp
+    .src([
+      './data/*.json',
+      './data/*.mst'
+    ])
+    .pipe(gulp.dest('./data'))
+    .pipe(browsersync.stream());
+}
+
 // Watch files
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
@@ -129,12 +140,13 @@ function watchFiles() {
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, gulp.parallel(css, js));
+const build = gulp.series(vendor, gulp.parallel(css, js, data));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
 exports.css = css;
 exports.js = js;
+exports.data = data;
 exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;

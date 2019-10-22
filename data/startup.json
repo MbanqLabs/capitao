@@ -1,0 +1,70 @@
+{
+  "startup": {
+    "name": "Capitao",
+    "intro": {
+      "title": "Wealth Management for Everyone",
+      "button": "Download Now!"
+    },
+    "download": {
+      "title": "Join the wealth management revolution",
+      "subtitle": "Charm is available on any mobile device! Download now to get started!"
+    },
+    "features": {
+      "title": "Grow your money",
+      "subtitle": "Decrease your risk and gain comfort about the future",
+      "first": {
+        "icon": "icon-basket",
+        "title": "Goal based investment",
+        "description": "Layering or commitment saving - more behaviorally appropriate way to shop"
+      },
+      "second": {
+        "icon": "icon-globe",
+        "title": "Investment diversification",
+        "description": "Diversify investment holdings away from bonds & stocks"
+      },
+      "third": {
+        "icon": "icon-speedometer",
+        "title": "Save faster",
+        "description": "Create a budget and defer current consumption"
+      },
+      "fourth": {
+        "icon": "icon-wallet",
+        "title": "Cash out",
+        "description": "Cash out at any point"
+      }
+    },
+    "cta": {
+      "title": "Stop waiting. Start Investing",
+      "button": "Let's Get Started!"
+    },
+    "contact": {
+      "title": "Get Charmed",
+      "first": {
+        "network": "twitter",
+        "url": "https://twitter.com"
+      },
+      "second": {
+        "network": "facebook",
+        "url": "https://facebook.com"
+      },
+      "third": {
+        "network": "linkedin",
+        "url": "https://linkedin.com"
+      }
+    },
+    "footer": {
+      "first": {
+        "name": "Privacy",
+        "url": "#"
+      },
+      "second": {
+        "name": "Terms",
+        "url": "#"
+      },
+      "third": {
+        "name": "FAQ",
+        "url": "#"
+      }
+    }
+  }
+}
